@@ -5,11 +5,6 @@ A few weeks after starting his new role, Jeremy is approached by upper managemen
 
 In this challenge, you’ll help Jeremy and the data analytics team do the following:
 
-* Perform multiple linear regression analysis to identify which variables in the dataset predict the mpg of MechaCar prototypes
-* Collect summary statistics on the pounds per square inch (PSI) of the suspension coils from the manufacturing lots
-* Run t-tests to determine if the manufacturing lots are statistically different from the mean population
-* Design a statistical study to compare vehicle performance of the MechaCar vehicles against vehicles from other manufacturers. For each statistical analysis, you’ll write a summary interpretation of the findings.
-
 ## Deliverables:
 This new assignment consists of three technical analysis deliverables and a proposal for further statistical study. You’ll submit the following:
 
@@ -19,19 +14,11 @@ This new assignment consists of three technical analysis deliverables and a prop
 4. ***Deliverable 4:*** Design a Study Comparing the MechaCar to the Competition
 
 
-
 # Deliverable 1:  
 ## Linear Regression to Predict MPG
 ### Deliverable Requirements:
 
 The `MechaCar_mpg.csv` dataset contains mpg test results for 50 prototype MechaCars. The MechaCar prototypes were produced using multiple design specifications to identify ideal vehicle performance. Multiple metrics, such as vehicle length, vehicle weight, spoiler angle, drivetrain, and ground clearance, were collected for each vehicle. Using your knowledge of R, you’ll design a linear model that predicts the mpg of MechaCar prototypes using several variables from the `MechaCar_mpg.csv file`. 
-
-> To Deliver. 
-
-- The `MechaCar_mpg.csv` file is imported and read into a dataframe
-- An RScript is written for a linear regression model to be performed on all six variables
-- An RScript is written to create the statistical summary of the linear regression model with the intended p-values
-- There is a summary that addresses all three questions
 
 **Statistical Summary:** 
 
@@ -59,24 +46,6 @@ The MechaCar Suspension_Coil.csv dataset contains the results from multiple prod
 - The suspension coil’s PSI continuous variable across all manufacturing lots
 - The following PSI metrics for each lot: mean, median, variance, and standard deviation.
 
-#### Technical Analysis
-1. Download the `Suspension_Coil.csv` file, and place it in the active directory for your R session.
-2. In your `MechaCarChallenge.RScript`, import and read in the `Suspension_Coil.csv` file as a table.
-3. Write an RScript that creates a `total_summary` dataframe using the `summarize()` function to get the mean, median, variance, and standard deviation of the suspension coil’s PSI column.
-4. Write an RScript that creates a `lot_summary` dataframe using the `group_by()` and the `summarize()` functions to group each manufacturing lot by the mean, median, variance, and standard deviation of the suspension coil’s PSI column.
-5. Save your `MechaCarChallenge.RScript` file to your GitHub repository.
-
-> To Deliver. 
-
-You will earn a perfect score for Deliverable 2 by completing all requirements below:
-
-- The Suspension_Coil.csv file is imported and read into a dataframe
-- An RScript is written to create a total summary dataframe that has the mean, median, variance, and standard deviation of the PSI for all manufacturing lots
-- An RScript is written to create a lot summary dataframe that has the mean, median, variance, and standard deviation for each manufacturing lot
-- There is a summary that addresses the design specification requirement for all the manufacturing lots and each lot individually
-
-The Suspension Coil dataset provided for the MechaCar contains the results of testing the weight capacities of multiple suspension coils from multiple production lots to determine consistency. 
-
 First looking at all manufacturing lots:
 ![d1](https://github.com/DataJew/MechaCar_Statistical_Analysis/blob/main/Resources/images/total_summary.png)
 
@@ -100,17 +69,6 @@ This very simple boxplot illustrates the differences between the lots:
 
 # Deliverable 3:  
 ## t-Tests on Suspension Coils
-### Deliverable Requirements:
-
-Using your knowledge of R, perform t-tests to determine if all manufacturing lots and each lot individually are statistically different from the population mean of 1,500 pounds per square inch.
-
-#### Technical Analysis
-1. In your `MechaCarChallenge.RScript`, write an RScript using the `t.test()` function to determine if the PSI across all manufacturing lots is statistically different from the population mean of 1,500 pounds per square inch.
-2. Next, write three more RScripts in your `MechaCarChallenge.RScript` using the `t.test()` function and its `subset()` argument to determine if the PSI for each manufacturing lot is statistically different from the population mean of 1,500 pounds per square inch.
-
-- An RScript is written for t-test that compares all manufacturing lots against mean PSI of the population
-- An RScript is written for three t-tests that compare each manufacturing lot against mean PSI of the population
-- There is a summary of the t-test results across all manufacturing lots and for each lot
 
 The next step is to conduct a t-test on the suspension coil data to determine whether there is a statistical difference between the mean of this provided sample dataset and a hypothesized, potential population dataset. Using the presumed **population mean of 1500**, we find the following:
 
@@ -132,15 +90,6 @@ How does this information help?  Clearly, something went awry in Lot 3's product
 
 # Deliverable 4:  
 ## Study Design: MechaCar vs Competition
-### Deliverable Requirements:
-
-Using your knowledge of R, design a statistical study to compare performance of the MechaCar vehicles against performance of vehicles from other manufacturers.
-
-The statistical study design has the following:
-- A metric to be tested is mentioned
-- A null hypothesis or an alternative hypothesis is described
-- A statistical test is described to test the hypothesis
-
 
 This study would involve collecting data on MechaCar and its comparable models across several different manufacturers over the last 3 years.
 
