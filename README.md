@@ -76,11 +76,11 @@ You will earn a perfect score for Deliverable 2 by completing all requirements b
 The Suspension Coil dataset provided for the MechaCar contains the results of testing the weight capacities of multiple suspension coils from multiple production lots to determine consistency. 
 
 First looking at all manufacturing lots:
-[name-of-you-image](https://github.com/DataJew/MechaCar_Statistical_Analysis/blob/main/images/total_summary.png)
+![d1](https://github.com/DataJew/MechaCar_Statistical_Analysis/blob/main/images/total_summary.png)
 
 
 Then each lot individually:
-[name-of-you-image](https://github.com/DataJew/MechaCar_Statistical_Analysis/blob/main/images/lot_summary.png)
+![d1](https://github.com/DataJew/MechaCar_Statistical_Analysis/blob/main/images/lot_summary.png)
 
 
 With the understanding that the design specifications for the MechaCar suspension coils mandate that <mark style="background-color: Yellow">**the variance of the suspension coils cannot exceed 100 pounds per square inch (PSI)**</mark> . 
@@ -92,7 +92,7 @@ When looking at the entire population of the production lot, the variance of the
 Similarly, but significantly more consistent, Lot 1 and Lot 2 are well within the 100 PSI variance requirement; with variances of 0.98 and 7.47 respectively.  However, it is Lot 3 that is showing much larger variance in performance and consistency, with a variance of 170.29.  It is Lot 3 that is disproportionately causing the variance at the full lot level.  
 
 This very simple boxplot illustrates the differences between the lots:
-![d1](https://rpubs.com/DataJew/MechaCar)
+![d1](https://github.com/DataJew/MechaCar_Statistical_Analysis/blob/main/images/MechaCar_boxplot.png)
 
 
 # Deliverable 3:  
