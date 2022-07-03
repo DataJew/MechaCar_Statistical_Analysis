@@ -35,6 +35,8 @@ The `MechaCar_mpg.csv` dataset contains mpg test results for 50 prototype MechaC
 
 **Statistical Summary:** 
 
+![d1](https://github.com/DataJew/MechaCar_Statistical_Analysis/blob/main/Resources/images/model_summary.png)
+
 **Resulting Model:** 
 ### mpg =  (6.267)**vehicle_length** + (0.0012)**vehicle_weight** + (0.0688)**spoiler_angle** + (3.546)**ground_clearance** + (-3.411)**AWD** + (-104.0)
 
