@@ -63,19 +63,17 @@ This boxplot illustrates the differences between the lots:
 
 The next step is to conduct a t-test on the suspension coil data to determine whether there is a statistical difference between the mean of this provided sample dataset and a hypothesized, potential population dataset. Using the presumed **population mean of 1500**, we find the following:
 
-There is a summary of the t-test results across **all manufacturing lots**
-
 ![d1](https://github.com/DataJew/MechaCar_Statistical_Analysis/blob/main/Resources/images/t-test1.png)
 
 From here we can see the **true mean of the sample is 1498.78**, which we also saw in the summary statistics above.  With a **p-Value of 0.06**, which is higher than the common significance level of 0.05, there is **NOT enough evidence to support rejecting the null hypothesis**; the mean of all three of these manufacturing lots is statistically similar to the presumed population mean of 1500. 
 
 **Next looking at each individual lots:**
 
+![d1](https://github.com/DataJew/MechaCar_Statistical_Analysis/blob/main/Resources/images/t-test2.png)
+
 1. Lot 1 sample actually has the **true sample mean of 1500**, again as we saw in the summary statistics above. With a **p-Value of 1**, clearly we cannot reject (i.e. accept) the null hypothesis that there is no statistical difference between the observed sample mean and the presumed population mean (1500).
 2. Lot 2 has essentially the same outcome with a **sample mean of 1500.02**, a **p-Value of 0.61**; the null hypothesis cannot be rejected, and the sample mean and the population mean of 1500 are statistically similar.
 3. However, in Lot 3, **the sample mean is 1496.14** and the **p-Value is 0.04**, which is lower than the common significance level of 0.05.  All indicating to **reject the null hypothesis** that this sample mean and the presumed population mean are **not statistically different**.
-
-![d1](https://github.com/DataJew/MechaCar_Statistical_Analysis/blob/main/Resources/images/t-test2.png)
 
 The production process in Lot 3 needs to be checked for system fails and the suspension coils from this lot need to be inspected to remove those not meeting quality criteria.
 
