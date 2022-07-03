@@ -77,7 +77,7 @@ From here we can see the **true mean of the sample is 1498.78**, which we also s
 
 ![d1](https://github.com/DataJew/MechaCar_Statistical_Analysis/blob/main/Resources/images/t-test2.png)
 
-Lot 3's production process needs to be checked for system fails and the suspension coils from this lot need to be inspected to remove those not meeting quality criteria.
+The production process in Lot 3 needs to be checked for system fails and the suspension coils from this lot need to be inspected to remove those not meeting quality criteria.
 
 # Deliverable 4:  
 ## Study Design: MechaCar vs Competition
