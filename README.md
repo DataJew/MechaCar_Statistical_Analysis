@@ -92,6 +92,7 @@ When looking at the entire population of the production lot, the variance of the
 Similarly, but significantly more consistent, Lot 1 and Lot 2 are well within the 100 PSI variance requirement; with variances of 0.98 and 7.47 respectively.  However, it is Lot 3 that is showing much larger variance in performance and consistency, with a variance of 170.29.  It is Lot 3 that is disproportionately causing the variance at the full lot level.  
 
 This very simple boxplot illustrates the differences between the lots:
+
 ![d1](https://github.com/DataJew/MechaCar_Statistical_Analysis/blob/main/images/MechaCar_boxplot.png)
 
 
