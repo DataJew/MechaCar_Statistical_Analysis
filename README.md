@@ -149,7 +149,7 @@ This study would involve collecting data on MechaCar and its comparable models a
 Collecting data for comparable models across all major manufacturers for past 3 years for the following metrics:
 
 
-*  Current Price (Selling) **(Dependent Variable)**
+*  Current Price (Selling) **[Dependent Variable]**
 *  Safety Feature Rating 
 *  Drive Package
 *  Engine (Electric, Hybrid, Gasoline / Conventional)
