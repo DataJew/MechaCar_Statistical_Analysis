@@ -34,8 +34,8 @@ The `MechaCar_mpg.csv` dataset contains mpg test results for 50 prototype MechaC
 - There is a summary that addresses all three questions
 
 **Statistical Summary:** 
-**Resulting Model:** 
 
+**Resulting Model:** 
 ### mpg =  (6.267)**vehicle_length** + (0.0012)**vehicle_weight** + (0.0688)**spoiler_angle** + (3.546)**ground_clearance** + (-3.411)**AWD** + (-104.0)
 
 From the above output we can see that:
